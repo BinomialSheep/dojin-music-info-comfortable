@@ -1,0 +1,23 @@
+{
+  "name": "Dojin music info comfortable",
+  "description": "同人音楽info用の非公式Chrome拡張です",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://www.dojin-music.info/*"],
+  "homepage_url": "https://github.com/BinomialSheep/dojin-music-info-comfortable",
+  "content_scripts": [
+    {
+      "matches": ["https://www.dojin-music.info/my/possession", "https://www.dojin-music.info/mypage/possession/*"],
+      "js": ["save_items.js"]
+    },
+    {
+      "matches": [
+        "https://www.dojin-music.info/artist/*",
+        "https://www.dojin-music.info/circle/*",
+        "https://www.dojin-music.info/tags/*"
+      ],
+      "js": ["check_items.js"]
+    }
+  ]
+}
