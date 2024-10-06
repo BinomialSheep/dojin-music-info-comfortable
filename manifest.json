@@ -15,7 +15,8 @@
       "matches": [
         "https://www.dojin-music.info/artist/*",
         "https://www.dojin-music.info/circle/*",
-        "https://www.dojin-music.info/tags/*"
+        "https://www.dojin-music.info/tags/*",
+        "https://www.dojin-music.info/history"
       ],
       "js": ["check_items.js"]
     }
