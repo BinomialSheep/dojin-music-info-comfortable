@@ -8,7 +8,7 @@
 ## 機能概要
 
 ### 未所持CD管理支援
-![alt text](README用画像/所持未所持.png)
+![alt text](README用画像/所持未所持_circle.png)
 
 同人音楽infoに所持CDを登録しておくと、サークルページやアーティストページから未所持のCDが分かるようになります。
 
@@ -20,22 +20,26 @@
 ## 使い方
 
 ### 所持CDを同人音楽info上に登録する（公式機能）
+![alt text](README用画像/所持CD追加.png)
 
 1. [同人音楽info](https://www.dojin-music.info/)にログインする
 2. サイト内の検索ボックスから、登録したいCDを探す
 3. 作品ページの下部で「持っているCDに追加」を押す
 
-![alt text](README用画像/所持CD追加.png)
 
 ### 拡張機能内部の所持CDリストを更新する
+![alt text](README用画像/所持CD更新.png)
 
 同人音楽infoの[所持CDページ](https://www.dojin-music.info/my/possession)の右上の方にある「所持CDの更新」ボタンを押すと、拡張機能の内部ストレージ上に保持している所持CDリストが更新されます。
 
-![alt text](README用画像/所持CD更新.png)
 
 
 ### 未所持CDを確認する
+![alt text](README用画像/所持未所持_artist.png)
+
 ログインして所持CDを更新した状態でアーティストページ、サークルページ、タグページなどを開くと、所持未所持が一覧で分かるようになっています。
+
+
 
 
 ## 手動での導入方法
